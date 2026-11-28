@@ -7,20 +7,19 @@
 <meta name="description" content="Boutique hair studio in Old Pasadena. Curly and wavy cuts, lived-in color, texture services and extensions.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
-  <a class="mark" href="index.html">Luna <i>y</i> Sol</a>
+  <a class="mark" href="index.html"><span class="dot" aria-hidden="true"></span>Luna y Sol</a>
   <nav class="nav" aria-label="Main"><a href="index.html">Home</a>
 <a href="services.html">Services</a>
 <a href="stylists.html" aria-current="page">Stylists</a>
 <a href="gallery.html">Gallery</a>
 <a href="visit.html">Visit</a></nav>
-  <a class="head-book" href="visit.html#book">Book</a>
+  <a class="btn btn-sm" href="visit.html#book">Book</a>
   <details class="menu">
     <summary>Menu</summary>
     <nav aria-label="Mobile"><a href="index.html">Home</a>
@@ -31,49 +30,47 @@
   </details>
 </header>
 <main id="main">
-<section class="page-head">
-  <div>
-    <p class="label">Stylists</p>
-    <h1>Who's in the <i>chair</i></h1>
-    <p class="lede">Luna y Sol is built on one belief: curly and wavy hair isn't something to be managed. It's something to be celebrated.</p>
-  </div>
-  <img class="ph-sun" src="images/photo8.jpg" alt="">
+<section class="page-head" data-r>
+  <div class="circle sm"><img src="images/photo8.jpg" alt=""></div>
+  <h1>Stylists</h1>
+  <p>Luna y Sol is built on one belief: curly and wavy hair isn't something to be managed. It's something to be celebrated.</p>
 </section>
-<div class="st-list"><article class="st-full">
-  <div class="st-sun"><img src="images/hector-photo.jpg" alt="Hector, curl specialist" loading="lazy"></div>
-  <div>
-    <p class="label">Curl specialist</p>
-    <h2>Hector</h2>
-    <p class="st-bio">Hector is Luna y Sol's resident curl specialist, with a signature dry-cutting approach that transforms clients' relationships with their natural texture. Warm, patient, and deeply knowledgeable, he makes every appointment feel like a masterclass in your own hair.</p>
-    <a class="btn" href="visit.html#book">Book with Hector</a>
-  </div>
-</article>
-<article class="st-full">
-  <div class="st-sun"><img src="images/sarah-photo.jpg" alt="Sarah, cut & color specialist" loading="lazy"></div>
-  <div>
-    <p class="label">Cut & color specialist</p>
-    <h2>Sarah</h2>
-    <p class="st-bio">Sarah has built a devoted following over years of cuts and color that work beautifully in real life, not just in the chair. Known for her careful consultations and her eye for lived-in color, she's the stylist clients trust to make them look effortlessly themselves, appointment after appointment, year after year.</p>
-    <a class="btn" href="visit.html#book">Book with Sarah</a>
-  </div>
-</article></div>
+<section class="stylists-home">
+  <div class="st-pair"><article class="stylist" data-r>
+      <img src="images/hector-photo.jpg" alt="Hector, curl specialist" loading="lazy">
+      <h3>Hector</h3>
+      <p class="sub">Curl specialist</p>
+      <p>Hector is Luna y Sol's resident curl specialist, with a signature dry-cutting approach that transforms clients' relationships with their natural texture. Warm, patient, and deeply knowledgeable, he makes every appointment feel like a masterclass in your own hair.</p>
+    </article><article class="stylist" data-r>
+      <img src="images/sarah-photo.jpg" alt="Sarah, cut & color specialist" loading="lazy">
+      <h3>Sarah</h3>
+      <p class="sub">Cut & color specialist</p>
+      <p>Sarah has built a devoted following over years of cuts and color that work beautifully in real life, not just in the chair. Known for her careful consultations and her eye for lived-in color, she's the stylist clients trust to make them look effortlessly themselves, appointment after appointment, year after year.</p>
+    </article></div>
+  <p class="center st-book" data-r><a class="btn btn-light" href="visit.html#book">Book an Appointment</a></p>
+</section>
 <section class="reviews">
-  <p class="label">Stories from the chair</p>
-  <div class="rev-stack"><blockquote><p>&ldquo;Best haircut I've ever gotten. Hector completely transformed my hair and brought back my curl pattern.&rdquo;</p><cite>Kiley S.</cite></blockquote><blockquote><p>&ldquo;I'd relied on hats and beanies for months. Hector gave me a haircut I absolutely love. He's done wonders for my self-esteem.&rdquo;</p><cite>Nathan R.</cite></blockquote><blockquote><p>&ldquo;I've worked with Sarah for more than 5 years and have always been thrilled with her cuts and color. I can't imagine going anywhere else.&rdquo;</p><cite>Allison F.</cite></blockquote><blockquote><p>&ldquo;After years of choppy cuts elsewhere, one curly dry cut with Hector finally gave me the shape I wanted.&rdquo;</p><cite>Anna M.</cite></blockquote><blockquote><p>&ldquo;Sarah really knows curly hair, and she explains everything she's doing along the way.&rdquo;</p><cite>Brianna B.</cite></blockquote></div>
+  <div class="center-head" data-r><h2>Reviews</h2></div>
+  <div class="rev-stack"><blockquote data-r><p>&ldquo;Best haircut I've ever gotten. Hector completely transformed my hair and brought back my curl pattern.&rdquo;</p><cite>Kiley S.</cite></blockquote><blockquote data-r><p>&ldquo;I'd relied on hats and beanies for months. Hector gave me a haircut I absolutely love. He's done wonders for my self-esteem.&rdquo;</p><cite>Nathan R.</cite></blockquote><blockquote data-r><p>&ldquo;I've worked with Sarah for more than 5 years and have always been thrilled with her cuts and color. I can't imagine going anywhere else.&rdquo;</p><cite>Allison F.</cite></blockquote><blockquote data-r><p>&ldquo;After years of choppy cuts elsewhere, one curly dry cut with Hector finally gave me the shape I wanted.&rdquo;</p><cite>Anna M.</cite></blockquote><blockquote data-r><p>&ldquo;Sarah really knows curly hair, and she explains everything she's doing along the way.&rdquo;</p><cite>Brianna B.</cite></blockquote></div>
 </section>
 </main>
 <footer class="site-foot">
-  <div class="foot-top">
-    <p class="foot-tag">See you <i>upstairs</i>.</p>
-    <a class="btn light" href="visit.html#book">Book a visit</a>
-  </div>
   <div class="foot-grid">
-    <p><b>Luna y Sol</b><br>Curly &amp; wavy hair specialists</p>
+    <p><b>Luna y Sol</b><br>Curly and wavy hair specialists</p>
     <p>300 E Colorado Blvd, Ste 202, Unit 214<br>Pasadena, CA 91129</p>
-    <p>Tue – Sat, 11 AM – 6 PM<br>Sun &amp; Mon by appointment</p>
+    <p>Tuesday to Saturday, 11 AM to 6 PM<br>Sunday and Monday by appointment</p>
     <p><a href="tel:+13236577551">(323) 657-7551</a><br><a href="https://www.instagram.com/lunaysol_curllab/">Instagram</a> · <a href="https://www.yelp.com/biz/luna-y-sol-pasadena">Yelp</a></p>
   </div>
   <p class="copy">&copy; 2026 Luna y Sol. All rights reserved.</p>
 </footer>
+<script>
+(function(){
+  var d=document.documentElement;
+  if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches||/static/.test(location.search))return;
+  d.classList.add('rv');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -6% 0px',threshold:0.06});
+  document.querySelectorAll('[data-r]').forEach(function(el){io.observe(el);});
+})();
+</script>
 </body>
 </html>
